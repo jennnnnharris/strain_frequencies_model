@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 # 1. Setup the Streamlit page layout
 st.set_page_config(page_title="AAF Dynamics Simulator", layout="wide")
 st.title("Alternate Allele Frequencies (AAF) Simulator")
+st.write("This is a simple model just for two strains, Stain A and Strain B.")
 st.write("Adjust the Strain A frequency below to see how the distribution shifts.")
 
 # 2. Create the Streamlit slider
